@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    height: 70px;
+    overflow: hidden;
+}
+.container{
+    
+    margin: 0 auto;
+    height: 70px;
+    width: 1200px;
+    line-height: 70px;
+}
+.top .top-l { 
+    border:5px solid red;
+    height: 70px;
+    float: left;
+}
+.top .top-l a {
+    color: #43b39a;
+    font-size: 20px;
+    text-decoration: none;
+}
+.top .top-l .img-box {
+    float:left;
+}
+.top .top-l img {
+    height:50px;
+    margin: 10px 0;
+}
+.top .top-r {
+    border:5px solid red;
+    height:70px;
+    float: right;
+}
+.top .top-r a {
+    color: #888;
+    text-decoration: none;
+    margin-right:30px;
+    font-size: 18px;
+}
+.top .top-r a.active {
+    color: #43b39a;
+}
+
+.top .top-r button {
+    font-size: 18px;
+    color:#fff;
+    padding: 6px 12px;
+    border: 0; 
+    background-color: #43b39a;
+}
+   
+.swiper{
+    position: relative;
+    
+}
+.swiper-img-box {
+    position: relative;
+    z-index: -1;
+}
+.swiper-img-box img {/*为什么这个图片不随着屏幕分辨率缩放而变化*/
+    display:block;
+}
+.swiper-panel {
+    width:1200px;
+    position: absolute;
+    left: 50%;
+    top:0;
+    z-index:1;
+    margin-left: -600px;
+    /* background-color: #768d88;  */
+}
+.swiper-panel h2{
+      font-size: 50px;
+      height: 100px;
+      color: rgb(238, 223, 223);
+      padding-top: 300px;
+}
+.swiper-panel p{
+
+    font-size: 30px;
+    height: 60px;
+    color: rgb(238, 223, 223);
+    padding-top: 20px;
+}
+.head-box3{
+    /* background: #43b39a; */
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.head-box3 p1{
+   
+    background: #42b299;
+font-size: 22px;
+color: #fff;
+padding: 10px;
+border-radius:20px
+}
+.head-box3 p2{
+    margin-left: 50px;
+    font-size: 22px;
+    background:#fff;
+ color: #42b299;
+ padding: 10px;
+ border-radius:20px;
+ border: solid 1px  #42b299;
+ 
+}
+.head-box4 p3{
+    margin-top: 100px;
+    color: #fff;
+}
+.middle{
+    border:5px solid red;
+    height: 90px;
+    background-color:#42b299
+
+}
+
+.middle .m-panel{
+    border:5px solid red;
+    width:1200px;
+   margin:0 auto;
+    /* background-color: #768d88;   */
+    height: 90px;
+}
+.m-panel img{
+    border:5px solid red;
+    width: 42px;
+    height: 50px;
+}
+.m{
+    float: left;
+    margin-right: 96px;
+    /* background: rosybrown; */
+}
+.m-left{
+    float: left;
+    margin: 10px;
+    border:solid 1px #fff;
+    border-radius: 50%;
+    padding: 6px;
+    
+}
+.m-right{
+    float: right;
+    margin-top:20px;
+}
+.up{
+    font-size: 26px;
+  color:#fff
+}
+.down{
+    color:#fff
+}
+
+.leg{
+   height: 600px;
+   /* background: #768d88; */
+}
+
+.leg-panel{
+    height: 600px;
+    
+    width:1200px;
+   margin:0 auto;
+}
+.title-box{
+    padding-top: 100px;
+    text-align: center;
+}
+.title{
+ font-size: 30px;
+}
+.captrue{
+    padding-top: 10px;
+   width: 1100px;
+   margin: 0 auto;
+   color: #888;
+}
+.fun-list{
+ margin-top: 60px;
+ height: 210px;
+
+}
+.fun-item{
+    margin-left:70px;
+    text-align:center;
+     float: left;
+}
+.fun-title{
+    font-size: 25px;
+}
+.fun-capture{
+    width: 200px;
+ color: #888888;
+}
+.evlution{
+    text-align: center;
+}
+.ev-title{
+    font-size: 30px;
+}
+.ev-capture{
+    margin: 18px auto;
+    text-align: center;
+  width:1000px;
+}
+
+.pic{
+  display: flex;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.pic-back{
+    position:relative;
+    flex:1;
+}
+.pic-back img   {
+    width:100%;
+    display:block;
+}
+.pic-back-t0 {
+    position:absolute;
+    left:0;
+    bottom:50px;
+    width:100%;
+}
+
+/* 如何文字对齐 text-align line-height font-size color，直接margin: 0 auto 为什么不行？ */
+
+
+.pic-out img {
+    width:80%;
+}
+.main-panel{
+    margin: 0 auto;
+    width: 1200px;
+    /* background: chartreuse; */
+}
+.example{
+    text-align: center;
+}
+.ex-title p{
+    padding-top: 40px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.ex-capture{
+    color: #888888;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+}
+.img2{
+    display: flex;
+    justify-content: center;
+}
+
+.img1 .img-co{
+    padding-top: 50px;
+    margin: 20px;
+}
+.img2 .img-co{
+    margin: 20px;
+}
+.img-co-img{
+    position: relative;
+}
+.img-co-img img{
+    width: 300px;
+     height: 224px;
+}
+.img-co-text{
+    width: 300px;
+    height: 112px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    border: solid 1px #888;
+}
+.img-co-text-title{
+margin-left:5px;
+padding: 20px;
+font-size: 18px;
+}
+.img-co-text-capture{
+    color: #888;
+    margin-left:15px;
+    padding: 10px;
+}
+.company-panel{
+    margin: 0 auto;
+    width: 1200px;
+    /* background: lightpink; */
+}
+.company-up{
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.company-up .company-up-title{
+    font-size: 30px;
+}
+.company-up .company-up-capture{
+    padding-top: 20px;
+    color: #888;
+}
+.company-down{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+   
+}
+.company-down-l{
+    margin: 10px;
+}
+.company-down-r{
+    margin: 10px;
+}
+
+.foot-pancel{/*这个盒子里面的内容为什么不能把盒子撑开 ？*/
+ width: 1200px;
+margin: 0 auto;
+background: #d60303;
+padding-top:80px ;
+
+}
+.foot-pancel::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+.foot-l{
+    /* background: #42b299; */
+    float: left;
+}
+.foot-l-content{
+    padding-right: 50px;
+    float:left;
+}
+.foot-l-content-title{
+  margin:  10px;
+  font-size:20px
+}
+.foot-l-content-capture{
+    text-align: left;
+    margin: 10px;
+    color: #888;
+}
+.foot-l-content-capture p{
+    padding: 12px;
+    padding-left: 0;
+}
+
+.foot-r{
+    padding-right: 200px;
+    float: right;
+}
+.foot-r img{
+    width: 150px;
+}
+.foot-r-kefu{
+    padding-right: 50px;
+    float: right;
+}
+.foot-r-weixin{
+    float: right;
+}
+.foot-r p{
+   font-size: 20px;
+}
+.foot-r-weixin-title{
+    padding-bottom: 24px;
+    text-align: center;
+}
+.foot-r-kefu-title{
+    padding-bottom: 24px;
+      text-align: center;
+}
+.foot-r-weixin-picture{
+    text-align: center;
+}
+
+.bottom{
+    height: 60px;
+    background: #41b198;
+    text-align: center;
+}
+.bottom p{
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+}
+
